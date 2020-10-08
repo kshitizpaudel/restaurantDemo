@@ -1,0 +1,13 @@
+
+color used:
+nav color :#272727 (black)
+highlight color: #ffa742 (orange)
+textcolor 1 : #fff (white)
+textcolor 2: #d0d0d0  ( grey)
+
+nav
+padding: 0 15px;
+line-height: 25px;
+nav :font-size: 14px;
+nav font-weight: 700;
+font-family: montserrat;

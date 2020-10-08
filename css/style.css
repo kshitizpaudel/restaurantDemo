@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300;1,600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+#top {
+  background: #262626;
+  width: 100%;
+  padding: 5px 0;
+  min-height: 30px; }
+
+ul li {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  padding-right: 10px; }
+
+.nav-item {
+  border: 2px solid orange;
+  margin: 0px 10px; }
+
+.nav-link {
+  color: orange !important;
+  font-weight: bold; }
+
+button {
+  border-radius: 3px;
+  background: #363636;
+  border: none;
+  color: white;
+  height: 80%;
+  padding: 5px;
+  font-size: 15px;
+  color: orange;
+  background: transparent;
+  border: orange solid 1px;
+  font-size: 15px; }
+
+button:hover {
+  background: orange;
+  color: black; }
+
+@media (min-width: 200px) and (max-width: 1240px) {
+  #top {
+    background: #262626;
+    width: 100%;
+    padding: 5px 0; }
+    #top ul {
+      text-align: center;
+      margin: 2px 0px; }
+      #top ul li {
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        padding-right: 10px;
+        text-align: center; }
+
+  #social-media {
+    justify-content: center; }
+
+  #reserve-table-button {
+    justify-content: center; }
+
+  button {
+    padding-bottom: 10px;
+    line-height: 20px; }
+
+  #headercontent-main {
+    font-size: 100px !important; }
+
+  .headercontent span {
+    font-size: 50px !important; } }
+#header {
+  min-height: 1000px;
+  width: 100%;
+  background: url(../img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+.navbar {
+  background: rgba(1, 1, 1, 0.6); }
+
+.addednav {
+  background: rgba(1, 1, 1, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-height: 80px;
+  z-index: 10; }
+
+.headercontent {
+  min-height: 600px;
+  text-align: center; }
+  .headercontent h3, .headercontent h1 {
+    color: #d0d0d0;
+    font-family: 'Source Sans Pro', sans-serif; }
+  .headercontent span {
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 80px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal; }
+
+#headercontent-main, #reinterpreted {
+  font-size: 150px;
+  color: #ffa742;
+  line-height: 70px;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-weight: 400;
+  font-style: normal; }
+
+#mid {
+  min-height: 500px;
+  background: url(../img/2.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center top;
+  margin-top: -500px; }
+
+#mid-2 {
+  background: url(../img/slider1.jpg);
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: -90px;
+  border-radius: 50px 100px 70px;
+  transition-duration: 1s; }
+  #mid-2:hover {
+    transform: scale(1.1, 1.1); }
+
+h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+#mid-4 {
+  background: url(../img/slider3.jpg);
+  min-height: 1000px;
+  background-position: bottom center;
+  background-size: auto;
+  position: relative; }
+
+.meat {
+  position: absolute;
+  left: 200px;
+  bottom: 50px; }
+
+.mid-4-text {
+  position: absolute;
+  left: 40%;
+  top: 200px;
+  text-align: center;
+  padding: 10px; }
+  .mid-4-text p {
+    padding: 0px 90px; }
+
+#mid-5 {
+  min-height: 400px;
+  width:100%;
+  background: linear-gradient(to top,#6b4d16,black); 
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  padding-top: 50px; 
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+ 
+}
+/*# sourceMappingURL=style.css.map */
